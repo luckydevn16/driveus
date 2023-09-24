@@ -1,0 +1,425 @@
+@media (max-width: 1024px) {
+
+	header .booking .tel a {
+		font-size: 18px;
+	}
+
+	.winter-special {
+		min-height: 100vh !important;
+	}
+
+	.home-page .services-section,
+	.cars-page .inner-banner,
+	.gmc-denali-xl-page .inner-banner,
+	.mercedes-s560-page .inner-banner,
+	.cadillac-escalade-page .inner-banner,
+	.faq-page .inner-banner,
+	.contact-page .inner-banner {
+		background-attachment: scroll;
+	}
+
+	.single-vehicle-sorter .bottom-box-wrapper .pull-left {float: none !important;padding: 0 !important;}
+	.blog-3-col.latest-news .single-blog-post .img-box .overlay {margin-top: 0;}
+	.single-vehicle-sorter .middle-box-wrapper .middle-box {width: 50%;}
+	.single-vehicle-sorter {margin-top: 30px;}
+	.single-vehicle-sorter a.thm-btn {margin: 0;}
+	.latest-news .single-blog-post {margin-bottom: 30px;}
+	.footer-widget {min-height: 236px;}
+	.genurent-rate-table-wrapper {display: none;}
+	.genurent-rate-table-mobile-wrapper {display: block;}
+	.single-car-content .single-vehicle-sorter .middle-box-wrapper .middle-box {width: 33.33333%;}
+	.single-car-content .single-vehicle-sorter .bottom-box-wrapper .pull-left {float: left !important;width: 38%;}
+	.single-car-content .single-vehicle-sorter .bottom-box-wrapper .price-box.hour {padding-right: 40px !important;}
+	.single-car-content .single-vehicle-sorter a.thm-btn {float: left;}
+	.blog-page .pull-left,
+	.blog-page .pull-right {float: none !important;}
+	.blog-3-col.latest-news .single-blog-post .img-box .overlay {position: absolute;}
+	.blog-3-col.latest-news .single-blog-post .img-box .overlay .box {margin: 48px 0;padding: 20px 0 20px 20px;}
+	.blog-3-col.latest-news.single-blog-post-page .single-blog-post .img-box .overlay {position: static;}
+	.blog-3-col.latest-news.single-blog-post-page .single-blog-post .img-box .overlay .box {margin: 0;padding: 0;}
+	.blog-page.blog-3-col.latest-news .single-blog-post .img-box .overlay {position: static;}
+	.blog-page.blog-3-col.latest-news .single-blog-post .img-box .overlay .box {margin: 0;padding: 0;}
+}
+
+@media only screen and (max-width: 991px) {
+
+	header {
+    	padding-top: 0px;
+    }
+
+    header .logo {
+    	margin-left: -84px;
+    }
+
+    header .logo .icon-logo {
+    	width: 168px;
+    }
+
+	header .icon-hamburger div span {
+		width: 24px;
+	}
+
+	header .icon-hamburger div span:nth-child(2) {
+		width: 21px;
+	}
+
+	header .icon-hamburger div span:nth-child(3) {
+		width: 18px;
+	}
+
+	header .booking ul {
+		float: right;
+	}
+
+	header .booking .tel {
+		float: right;
+		padding-right: 0px;
+		margin-top: 9px;
+	}
+
+	header .booking .tel .icon-phone {
+		background-image: url("../img/resources/callus.svg");
+		width: 24px;
+		height: 24px;
+		display: block;
+	}
+
+    .headline h1 {
+    	font-size: 54px;
+    }
+
+    .headline p {
+    	font-size: 23px;
+    	padding: 0 8vw;
+    }
+
+    .headline .thm-btn{
+    	margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+	.hero-ready .hero {
+  		background: url(../img/background-images/homepage-mobile768.jpg);
+  		background-position: center bottom;
+		background-size: cover;
+  	}
+	
+	.container, 
+	.container-fluid {
+		padding-left: 25px;
+		padding-right: 25px;
+
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.section-padding {
+		padding: 8vh 0;
+	}
+
+	.home-page .section-padding {
+		padding: 15vh 0;
+	}
+
+	header .header__menu {
+		padding-top: 65px;
+		background: #0A2538;
+	}
+
+	header .header__menu ul {
+		padding: 0px 25px;
+	}
+
+	header .icon-hamburger[aria-expanded="true"] {
+		left: 25px;
+	}
+
+	.hero .hero__scroll .thm-btn {
+		margin: 4vh 0;
+	}
+
+	.owl-prev, 
+	.owl-next {
+		font-size: 4em !important;
+		margin-top: -63px !important;
+	}
+
+	.owl-theme .owl-dots {
+    	padding: 10px 0 6px 0;
+	}
+
+	.vehicle-sorter-area .col-sm-6,
+	.services-section .col-sm-6 {
+		width: 100%;
+	}
+
+	.vehicle-sorter-area .section-title {
+		margin-bottom: 0px;
+	}
+
+	.cars .single-vehicle-sorter .bottom-box-wrapper {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.headline h1 {
+    	font-size: 42px;
+    }
+
+    .headline p {
+    	font-size: 18px;
+    	padding: 0;
+    }
+
+    .hero .hero__scroll .thm-btn {
+		margin: 2vh 0;
+		padding: 12px 0;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    }
+
+    .section-title h2 span {
+    	font-size: 42px;
+    }
+
+    .services-section .row {
+    	padding: 0;
+    }
+
+    .inner-banner h2 {
+    	font-size: 42px;
+    }
+
+    .cars .single-vehicle-sorter h3 {
+		font-size: 24px;
+	}
+
+	.single-vehicle-sorter .middle-box-wrapper .price-box {
+    	font-size: 16px;
+    }
+
+    .single-vehicle-sorter .middle-box-wrapper .price-box span {
+    	font-size: 15px;
+	}
+
+	.owl-theme .owl-dots {
+    	padding: 6px 0 2px 0;
+	}
+
+	.owl-theme .owl-dots .owl-dot span {
+		width: 5px;
+		height: 5px;
+		margin: 5px 4px;
+	}
+
+	.bottom-bar .pull-left,
+	.bottom-bar .pull-right {float: none !important;text-align: center;}
+	.latest-news .single-blog-post .img-box .overlay {position: static;}
+	.latest-news .single-blog-post .img-box .overlay .box {margin: 0;margin-top: 15px;width: 100%;}
+	.blog-page.latest-news .single-blog-post .img-box .overlay .inner-box {padding-left: 0;}
+	.blog-3-col.latest-news .single-blog-post .img-box .overlay {position: static;}
+	.blog-3-col.latest-news .single-blog-post .img-box .overlay .box {margin: 0;margin-top: 0px;}
+	.footer-widget {min-height: auto;margin-bottom: 20px;}
+	.vehicle-sorter-area.col-3-page .single-vehicle-sorter {margin-top: 30px;}
+}
+
+@media (max-width: 420px) {
+
+	.hero-ready .hero {
+  		background: url(../img/background-images/homepage-mobile414.jpg);
+  		background-position: center center;
+		background-size: cover;
+  	}
+
+}
+
+@media (max-width: 375px) {
+
+	.headline h1 {
+    	font-size: 30px;
+    }
+
+    .headline p {
+    	font-size: 16px;
+    	padding: 0;
+    }
+
+    .hero .hero__scroll .thm-btn {
+    	font-size: 14px;
+	    margin: 1vh 0;
+	    padding: 10px 0;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+
+    .section-title h2 span {
+    	font-size: 28px;
+    }
+
+	.section-title p {
+		font-size: 16px;
+	}
+
+	.row {
+    	margin-right: 0px;
+    	margin-left: 0px;
+	}
+
+	.container, .container-fluid {
+    	padding-left: 15px;
+    	padding-right: 15px;
+	}
+
+	.section-title {
+		padding-bottom: 0px;
+	}
+
+	.inner-banner h2 {
+    	font-size: 30px;
+    }
+
+    .single-vehicle-sorter .middle-box-wrapper .price-box {
+    	font-size: 14px;
+    }
+
+    .single-vehicle-sorter .middle-box-wrapper .price-box span {
+    	font-size: 14px;
+	}
+
+	.search-form-box .form-box {width: 100%;float: none;}
+	.single-vehicle-sorter .img-box {width: 100%;}
+	.single-vehicle-sorter .img-box img {width: 100%;}
+	.single-car-content .single-vehicle-sorter .middle-box-wrapper .middle-box {width: 50%;}
+	.single-car-content .single-vehicle-sorter .bottom-box-wrapper .pull-left {float: none !important;width: 100%;}
+	.author-area .author-box, .author-area .author-content {display: block;padding: 0;}
+	.author-area .author-box {margin-bottom: 30px;}
+	.single-blog-post-page .comments-area .comment-box .author-thumb {position: static;margin-bottom: 20px;}
+	.single-blog-post-page .comments-area .comment {padding: 0;}
+}
+
+
+@media (max-height: 440px) and (orientation:landscape) {
+	
+	.hero .hero__in {
+    	top: 35%;
+    }
+
+	.hero .hero__scroll .thm-btn {
+	    margin: 4vh 0;
+	    padding: 16px 0;
+	    padding-left: 32px;
+	    padding-right: 32px;
+	}
+
+	.headline h1 {
+    	font-size: 42px;
+    }
+
+    .headline p {
+    	font-size: 18px;
+    	padding: 0;
+    }
+
+	.inner-banner {
+    	padding-top: 30vh;
+	}
+
+    .inner-banner h2 {
+    	font-size: 42px;
+    }
+
+}
+
+
+@media (max-height: 375px) and (orientation:landscape) {
+
+	.hero .hero__in {
+    	top: 40%;
+    }
+
+	.hero .hero__scroll .thm-btn {
+		margin: 1vh 0;
+		padding: 10px 0;
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+
+}
+
+@media (max-height: 320px) and (orientation:landscape) {
+
+	.hero .hero__scroll a.scroll-down {
+		display: none;
+	}
+
+	.section-title h2 span {
+    	font-size: 42px;
+    }
+
+    .inner-banner h2 {
+    	font-size: 42px;
+    }
+
+}
+
+@media (min-width: 1152px) {
+
+	.single-vehicle-title-image {
+	    padding-top: 40px;
+	}
+	
+	.cars .single-car-content .single-vehicle-price {
+    	max-width: 40%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+	.single-car-content .text-content {
+    	width: 60%;
+    	display: inline-block;
+    }
+
+	.footer .about-widget p {
+		width: 60%;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	#booking-form .modal-dialog {
+		width: 900px; margin: 50px auto;
+	}
+
+	.anchor {
+		height: 102px;
+		margin-top: -102px;
+	}
+
+	.our-business-banner {
+    	background: url(../img/background-images/homepage2.jpg) no-repeat #232732;
+    	background-attachment: fixed;
+    	background-position: center center;
+  		background-size: cover;
+    	padding: 20vh 0;
+    	height: 75vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.header__menu {
+		right: auto;
+		width: 320px;
+	}
+
+}
